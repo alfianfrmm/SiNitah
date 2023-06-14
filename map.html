@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zona Nilai Tanah</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&
+    display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My stle -->
+
+    <link rel="stylesheet" href="css/mapstyle.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Zona<span> Nilai Tanah</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#admin">Admin</a>
+        <a href="#bidang">Bidang Tanah</a>
+        <a href="#zona">Zona Nilai Tanah</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="eye"><i data-feather="eye"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Selamat <span>Datang</span></h1>
+        <p>Berikut merupakan Peta Zona Nilai Tanah</p>
+        <p>Desa Kaliboto</p>
+        <a href="#" class="cta">Lihat Disini</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Admin Section start -->
+    <section id="admin" class="admin">
+      <h2><span>Peta Administrasi</span> Desa Kaliboto</h2>
+      <iframe src="https://adminkaliboto.gis.co.id/" width="100%" height="500" frameborder="0">  </iframe>
+    </section>
+
+    </section>
+    <!-- Admin Section end -->
+
+    <!-- Bidang Section start -->
+    <section id="bidang" class="bidang">
+      <h2>Peta Bidang Tanah</h2>
+      <iframe src="https://bidangtanah.gis.co.id/" width="100%" height="500" frameborder="0"></iframe>
+    </section>
+    <!-- Bidang Section end -->
+    
+    <!-- Zona Section start -->
+    <section id="zona" class="zona">
+        <h2>Peta Zona Nilai Tanah</h2>
+        <iframe src="https://zonanilaitanahkaliboto.gis.co.id/" width="100%" height="500" frameborder="0"></iframe>
+      </section>
+      <!-- Zona Section end -->
+
+    <!-- Feather Icons -->  
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
