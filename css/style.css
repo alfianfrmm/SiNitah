@@ -16,7 +16,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 4000px;
 }
 
 /* Navbar */
@@ -192,6 +191,23 @@ body {
   font-size: large;
   text-align: center;
 }
+
+/* Footer */
+footer {
+  background-color: var(--primary);
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 7%;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Media Queries */
 
 /* Laptop */
